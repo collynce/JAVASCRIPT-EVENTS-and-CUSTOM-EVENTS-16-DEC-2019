@@ -42,3 +42,12 @@ function dataTyping() {
 
 }
 dataTyping();
+
+//Promises
+let myPromise = new Promise(function(resolve, reject) {
+
+    setTimeout(() => resolve("done"), 300);
+});
+mypromise.then(
+    result => alert(result)
+);
